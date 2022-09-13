@@ -1,0 +1,3 @@
+﻿todo:
+--show SRP in most basic form
+--show SRP using generics

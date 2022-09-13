@@ -7,4 +7,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="3.LiskovSubstitution\" />
+    <Folder Include="4.InterfaceSegregation\" />
+    <Folder Include="5.DependencyInversion\" />
+    <Folder Include="2.OpenClosed\" />
+  </ItemGroup>
+
 </Project>
