@@ -24,15 +24,15 @@ namespace SOLID.examples.SingleResponsibility
         public override void DoCultStuff()
         {
             SomeKindOfNonCultStuff("Doing other cultists work because they can");
-            Console.WriteLine($"Bad cult member doing cult stuff");
+            Console.WriteLine($"Bad cult member doing DoCultStuff");
             SomeKindOfNonCultStuff("Starting their own cult");
         }
 
         public override void ProtectCultLeader()
         {
             SomeKindOfNonCultStuff("Wondering if this cult leader is truly worthy");
-            Console.WriteLine($"Bad cult member doing cult stuff");
-            SomeKindOfNonCultStuff("Killing cult leader and taking over");
+            Console.WriteLine($"Bad cult member doing ProtectCultLeader");
+            SomeKindOfNonCultStuff("Attempt to kill cult leader and take over");
         }
     }
 }

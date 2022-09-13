@@ -18,7 +18,7 @@ namespace SOLID.examples.SingleResponsibility
             LastName = lname;
             CultName = cultname;
 
-            DoSomeKindOfNonCultStuff("Moving into new cot at recruitment barracks and meeting other members");
+            DoSomeKindOfNonCultStuff("Not yet isolating from family and friends");
         }
 
         public void DoSomeKindOfNonCultStuff(string stuff) => Console.WriteLine($"Good cult member doing non-cult stuff: {stuff}");
@@ -26,12 +26,12 @@ namespace SOLID.examples.SingleResponsibility
 
         public override void DoCultStuff()
         {
-            Console.WriteLine($"Bad cult member doing cult stuff");
+            Console.WriteLine($"Good cult member doing DoCultStuff");
         }
 
         public override void ProtectCultLeader()
         {
-            Console.WriteLine($"Bad cult member doing cult stuff");
+            Console.WriteLine($"Good cult member doing cult ProtectCultLeader");
         }
     }
 }
