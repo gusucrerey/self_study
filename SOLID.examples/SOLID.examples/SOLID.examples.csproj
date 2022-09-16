@@ -13,4 +13,8 @@
     <Folder Include="2.OpenClosed\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Cards.Strategy\Cards.Strategy.csproj" />
+  </ItemGroup>
+
 </Project>
