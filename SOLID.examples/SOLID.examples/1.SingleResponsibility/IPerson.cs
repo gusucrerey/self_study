@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID.examples.SingleResponsibility
 {
-    public interface ICharacter
+    public interface IPerson
     {
         string FirstName { get; set; }
         string LastName { get; set; }

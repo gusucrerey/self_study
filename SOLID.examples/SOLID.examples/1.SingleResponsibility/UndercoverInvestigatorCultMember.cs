@@ -28,14 +28,14 @@ namespace SOLID.examples.SingleResponsibility
 
         public override void DoCultStuff()
         {
-            DigDeeperForInformation();
             Console.WriteLine($"Undercover Investigator cult member doing DoCultStuff");
             DigDeeperForInformation();
+            if (HasIncriminatingEvidence)
+                ReportOnCult();
         }
 
         public override void ProtectCultLeader()
         {
-            DigDeeperForInformation();
             Console.WriteLine($"Undercover Investigator cult member doing ProtectCultLeader");
             DigDeeperForInformation();
             if(HasIncriminatingEvidence)

@@ -8,6 +8,7 @@ namespace SOLID.examples.SingleResponsibility
 {
     public interface ICultist
     {
+        int LevelOfDevotion { get; set; }
         string CultName { get; set; }
         void DoCultStuff();
         void ProtectCultLeader();
